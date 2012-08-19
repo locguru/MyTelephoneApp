@@ -354,7 +354,7 @@ NSComparator sortingBlock = ^(id call1, id call2) {
     
 	[consoleLog scrollRangeToVisible:NSMakeRange([consoleLog.text length], 0)];
     
-    NSTimer* myTimer = [NSTimer scheduledTimerWithTimeInterval: 3.0 target: self selector: @selector(callAfterSixtySecond:) userInfo: nil repeats: YES];
+   // NSTimer* myTimer = [NSTimer scheduledTimerWithTimeInterval: 3.0 target: self selector: @selector(callAfterSixtySecond:) userInfo: nil repeats: YES];
 }
 
 

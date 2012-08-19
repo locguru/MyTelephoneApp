@@ -132,7 +132,7 @@
         //navigate the "aps" dictionary looking for "loc-args" and "loc-key", for example, or your personal payload)
     }
     
-    application.applicationIconBadgeNumber = 0;
+    //application.applicationIconBadgeNumber = 0;
 }
 
 
@@ -172,7 +172,7 @@
     
     UIAlertView *alert1 = [[UIAlertView alloc] initWithTitle:@"title" message:@"Enter applicationDidBecomeActive" delegate:nil cancelButtonTitle:@"dismiss" otherButtonTitles:nil , nil];
 
-    [alert1 show];
+  //  [alert1 show];
 
 }
 
