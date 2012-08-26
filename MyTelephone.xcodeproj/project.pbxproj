@@ -17,8 +17,10 @@
 		2C1CCE9115BCDB90001E4D23 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C1CCE8F15BCDB90001E4D23 /* ViewController_iPhone.xib */; };
 		2C1CCE9415BCDB90001E4D23 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C1CCE9215BCDB90001E4D23 /* ViewController_iPad.xib */; };
 		2C1CCE9B15BCDBB3001E4D23 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C1CCE9A15BCDBB3001E4D23 /* CoreTelephony.framework */; };
+		2C2C465E15EAB7230035A83A /* History.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2C465D15EAB69A0035A83A /* History.m */; };
 		7C941C0C15E0A14E0093BCD0 /* RecordingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C941C0B15E0A14E0093BCD0 /* RecordingController.m */; };
 		7C941C0E15E0AB1C0093BCD0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C941C0D15E0AB1C0093BCD0 /* AVFoundation.framework */; };
+		7CEF665315E45E0000CADCAA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CEF665215E45E0000CADCAA /* MessageUI.framework */; };
 		7CF0C6AB15DB45460008A577 /* icon1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF0C6AA15DB45460008A577 /* icon1@2x.png */; };
 /* End PBXBuildFile section */
 
@@ -38,9 +40,12 @@
 		2C1CCE9015BCDB90001E4D23 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		2C1CCE9315BCDB90001E4D23 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		2C1CCE9A15BCDBB3001E4D23 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		2C2C465C15EAB6990035A83A /* History.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = History.h; sourceTree = "<group>"; };
+		2C2C465D15EAB69A0035A83A /* History.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = History.m; sourceTree = "<group>"; };
 		7C941C0A15E0A14E0093BCD0 /* RecordingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordingController.h; sourceTree = "<group>"; };
 		7C941C0B15E0A14E0093BCD0 /* RecordingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordingController.m; sourceTree = "<group>"; };
 		7C941C0D15E0AB1C0093BCD0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7CEF665215E45E0000CADCAA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		7CF0C6AA15DB45460008A577 /* icon1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon1@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CEF665315E45E0000CADCAA /* MessageUI.framework in Frameworks */,
 				7C941C0E15E0AB1C0093BCD0 /* AVFoundation.framework in Frameworks */,
 				2C1CCE9B15BCDBB3001E4D23 /* CoreTelephony.framework in Frameworks */,
 				2C1CCE7B15BCDB90001E4D23 /* UIKit.framework in Frameworks */,
@@ -63,6 +69,7 @@
 		2C1CCE6B15BCDB90001E4D23 = {
 			isa = PBXGroup;
 			children = (
+				7CEF665215E45E0000CADCAA /* MessageUI.framework */,
 				2C1CCE8015BCDB90001E4D23 /* MyTelephone */,
 				2C1CCE7915BCDB90001E4D23 /* Frameworks */,
 				2C1CCE7715BCDB90001E4D23 /* Products */,
@@ -98,6 +105,8 @@
 				2C1CCE8D15BCDB90001E4D23 /* ViewController.m */,
 				7C941C0A15E0A14E0093BCD0 /* RecordingController.h */,
 				7C941C0B15E0A14E0093BCD0 /* RecordingController.m */,
+				2C2C465C15EAB6990035A83A /* History.h */,
+				2C2C465D15EAB69A0035A83A /* History.m */,
 				2C1CCE8F15BCDB90001E4D23 /* ViewController_iPhone.xib */,
 				2C1CCE9215BCDB90001E4D23 /* ViewController_iPad.xib */,
 				7CF0C6AA15DB45460008A577 /* icon1@2x.png */,
@@ -181,6 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C2C465E15EAB7230035A83A /* History.m in Sources */,
 				2C1CCE8715BCDB90001E4D23 /* main.m in Sources */,
 				2C1CCE8B15BCDB90001E4D23 /* AppDelegate.m in Sources */,
 				2C1CCE8E15BCDB90001E4D23 /* ViewController.m in Sources */,
@@ -239,7 +249,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
@@ -261,7 +271,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";

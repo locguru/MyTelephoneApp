@@ -203,11 +203,17 @@ NSComparator sortingBlock = ^(id call1, id call2) {
     [self refreshCalls];
 }
 
+//-(BOOL)textFieldShouldBeginEditing:(UITextField *)textField {
+//    return NO;  // Hide both keyboard and blinking cursor.
+//}
+
 -(void) refreshCalls {
     
     consoleLog = [[UITextView alloc] init];
     consoleLog.frame = CGRectMake(0, 0, 320, 480);
+    consoleLog.editable = NO;
     [self.view addSubview:consoleLog];
+    
     
     //CTCarrier Class Parameters
     CTCarrier *myCarrier = [[CTCarrier alloc] init];
